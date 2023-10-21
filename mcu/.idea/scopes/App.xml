@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="App" pattern="file[mcu]:App//*" />
+</component>
