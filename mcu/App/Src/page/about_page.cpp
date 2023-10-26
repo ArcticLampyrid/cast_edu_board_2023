@@ -44,7 +44,7 @@ void about_page::update_ui()
     u8g2_SetFont(&screen, u8g2_font_7x14_tf);
     static const char *lines[] = {"Authors:",        "  Hardware:",       "    @CancerBocchi", "    @Fei Zhao",
                                   "    @Qiuyang Xu", "  Firmware:",       "    @alampy.com",   "    @Shujian Yu",
-                                  "Version:",        "  CEB-23-H2.1-F1.0"};
+                                  "Version:",        "  CEB-23-H2.1-F1.1"};
     constexpr auto n_lines = sizeof(lines) / sizeof(lines[0]);
     u8g2_DrawStr(&screen, 46, 14 - y, "About");
 
