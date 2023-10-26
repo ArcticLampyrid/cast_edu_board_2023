@@ -124,6 +124,10 @@ buzzer_page::buzzer_page()
     this->key_handlers[KEY_OK].on_pressed = [](key_state) {
         buzzer_start_play(test_tones, sizeof(test_tones) / sizeof(tone_info));
     };
+    this->key_handlers[KEY_USER_1].on_pressed = [](key_state) {
+        buzzer_start_play(test_tones, sizeof(test_tones) / sizeof(tone_info));
+    };
+    this->key_handlers[KEY_USER_2].on_pressed = [](key_state) { route_to(&main_menu_page_instance); };
 }
 void buzzer_page::on_encoder_changed(int32_t diff)
 {
