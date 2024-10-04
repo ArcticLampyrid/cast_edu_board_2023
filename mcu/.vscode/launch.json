@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${command:cmake.launchTargetPath}",
+            "name": "Debug (OpenOCD)",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "openocd.cfg"
+            ],
+            "searchDir": [],
+            "showDevDebugOutput": "none",
+            "deviceName": "STM32F401CCUx"
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${command:cmake.launchTargetPath}",
+            "name": "Debug (JLink)",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "serverpath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+            "interface": "swd",
+            "device": "STM32F401CC",
+            "showDevDebugOutput": "none",
+            "deviceName": "STM32F401CCUx"
+        }
+    ]
+}

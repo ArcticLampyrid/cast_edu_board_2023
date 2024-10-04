@@ -2,12 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-debug-event-trace/_deps/u8g2-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-debug/_deps/u8g2-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-debug/_deps/u8g2-src/sys/arm-linux/c-periphery" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-release/_deps/u8g2-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-release/_deps/u8g2-src/sys/arm-linux/c-periphery" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-relwithdebinfo/_deps/u8g2-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cmake-build-relwithdebinfo/_deps/u8g2-src/sys/arm-linux/c-periphery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/_deps/u8g2-src" vcs="Git" />
   </component>
 </project>
