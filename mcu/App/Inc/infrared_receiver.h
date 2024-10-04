@@ -1,4 +1,4 @@
-// Copyright (C) 2023 ArcticLampyrid <alampy.com>
+// Copyright (C) 2023-2024 ArcticLampyrid <alampy.com>
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as
 // published by the Free Software Foundation, either version 3 of the
@@ -13,7 +13,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #pragma once
+// Unlink STM32 HAL Library, CMSIS does not consider C++ environment
+// It's necessary to include this within an extern "C" block
+extern "C" {
 #include <cmsis_compiler.h>
+}
 void infrared_receiver_enable();
 void infrared_receiver_disable();
 void infrared_receiver_on_captured();
